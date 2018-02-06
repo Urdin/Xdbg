@@ -1,5 +1,7 @@
 <?php
 
+require_once "config.php"
+
 trait singleton{
 
     static private $instance=NULL;
